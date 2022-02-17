@@ -135,9 +135,19 @@ button {
   padding: 0 28px;
 }
 
+.subscribe-btn:hover, .subscribe-btn:focus {
+  border: 1px solid var(--white-clr);
+  outline: none;
+}
+
 .order-btn {
   padding: 0 32px;
   margin: 0 auto;
+}
+
+.order-btn:hover, .order-btn:focus {
+  border: 1px solid var(--white-clr);
+  outline: none;
 }
 
 .filter-btn {
@@ -151,8 +161,7 @@ button {
   transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   color: var(--white-clr);
   background-color: var(--brand-clr);
   box-shadow: 0px 3px 1px black;
@@ -166,14 +175,6 @@ button {
   box-shadow: 0px 3px 1px black;
   box-shadow: 0px 1px 2px black;
   box-shadow: 0px 2px 2px black;
-  outline: none;
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus,
-.order-btn:hover,
-.order-btn:focus {
-  border: 1px solid var(--white-clr);
   outline: none;
 }
 /*# sourceMappingURL=main.css.map */

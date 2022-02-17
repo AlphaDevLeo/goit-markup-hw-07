@@ -34,7 +34,14 @@
 	margin-left: 10px;
 }
 
-.social-link,
+.social-link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1),
+		background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .social-link-footer {
 	width: 44px;
 	height: 44px;
@@ -48,7 +55,11 @@
 	transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon,
+.social-icon {
+	width: 20px;
+	height: 20px;
+}
+
 .social-icon-footer {
 	width: 20px;
 	height: 20px;
@@ -90,7 +101,14 @@
 
 /* Блок навигации и контакты */
 
-.nav-item,
+.nav-item {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: inherit;
+	padding: 32px 0;
+}
+
 .header-contact {
 	font-weight: 500;
 	line-height: 1.14;
@@ -134,7 +152,12 @@
 	align-items: center;
 }
 
-.envelope,
+.envelope {
+	margin-right: 10px;
+	fill: var(--txt-clr);
+	transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .smartphone {
 	margin-right: 10px;
 	fill: var(--txt-clr);
@@ -204,7 +227,11 @@
 	margin-right: auto;
 }
 
-.footer-contacts .footer-address,
+.footer-contacts .footer-address {
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
 .footer-contact {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -429,7 +456,15 @@
 	position: relative;
 }
 
-.modal-input,
+.modal-input {
+	width: 100%;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	box-sizing: border-box;
+	border-radius: 4px;
+	background-color: transparent;
+	transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-user-comment {
 	width: 100%;
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -609,9 +644,18 @@
 	color: var(--txt-clr);
 }
 
-.benefits:not(:last-child),
-.activity:not(:last-child),
-.employee:not(:last-child),
+.benefits:not(:last-child) {
+	margin-right: 30px;
+}
+
+.activity:not(:last-child) {
+	margin-right: 30px;
+}
+
+.employee:not(:last-child) {
+	margin-right: 30px;
+}
+
 .clients li:not(:last-child) {
 	margin-right: 30px;
 }
@@ -636,8 +680,26 @@
 	background: rgba(47, 48, 58, 0.8);
 }
 
-.activities,
-.team,
+.activities {
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--contrast-clr);
+}
+
+.team {
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--contrast-clr);
+}
+
 .clients {
 	margin-bottom: 50px;
 	font-weight: 700;
@@ -667,7 +729,14 @@
 	margin-bottom: 30px;
 }
 
-.name,
+.name {
+	font-size: 16px;
+	line-height: 1.19;
+	/* identical to box height */
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
 .position {
 	font-size: 16px;
 	line-height: 1.19;
