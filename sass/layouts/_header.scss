@@ -6,31 +6,20 @@
 	transform: translateX(-50%);
 	width: 100%;
 	z-index: 2;
-	&__container {
-		@extend .container;
-		@extend %horisontal-orientation;
-	}
-	&__logo {
-		display: block;
-		padding-top: 24px;
-		padding-bottom: 25px;
-		margin-right: 93px;
-
-		font-family: Raleway;
-		font-weight: 700;
-		font-size: 26px;
-		line-height: 1.19;
-		letter-spacing: 0.03em;
-		color: $black-clr;
-	}
-	&__contacts {
-		@extend %horisontal-orientation;
-		margin-left: auto;
-	}
 }
-
-.color-logo {
-	color: $brand-clr;
+.header-section__container {
+	@extend .container;
+	@extend %horisontal-orientation;
+}
+.header-section__logo {
+	color: $black-clr;
+	padding-top: 24px;
+	padding-bottom: 25px;
+	margin-right: 93px;
+}
+.header-section__contacts {
+	@extend %horisontal-orientation;
+	margin-left: auto;
 }
 
 // Блок навигации t
@@ -90,8 +79,8 @@
 		&:hover,
 		&:focus {
 			color: $brand-clr;
-			& .envelope,
-			& .smartphone {
+			& .contact__icon--envelope,
+			& .contact__icon--smartphone {
 				fill: $brand-clr;
 			}
 		}
@@ -103,12 +92,12 @@
 	}
 }
 
-.envelope {
+.contact__icon--envelope {
 	width: 16px;
 	height: 12px;
 }
 
-.smartphone {
+.contact__icon--smartphone {
 	width: 10px;
 	height: 16px;
 }

@@ -1,6 +1,5 @@
 .portfolio-section {
 	@extend %standard-section;
-	@extend %shift;
 	&__title {
 		@extend %visually-hidden;
 	}

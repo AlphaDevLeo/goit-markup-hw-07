@@ -21,13 +21,15 @@ ul {
 
 address {
 	font-style: inherit;
+	color: inherit;
 }
 
 img {
 	display: block;
 }
 
-input {
+input,
+textarea {
 	cursor: pointer;
 	&:focus {
 		outline: none;

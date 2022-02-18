@@ -16,3 +16,9 @@ a {
 		outline: 1px solid #afb1b8;
 	}
 }
+
+main,
+footer {
+	position: relative;
+	top: 80px;
+}

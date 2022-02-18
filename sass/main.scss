@@ -1,23 +1,22 @@
 @import './utils/variables';
-
 @import './base/reset';
 @import './base/common';
 
-@import './utils/hidden';
-@import './utils/placeholders';
-
-@import './components/container';
 @import './components/btn';
-@import './components/pre-title';
-@import './components/title';
+@import './components/container';
+@import './components/logo';
 @import './components/socials';
+@import './components/title';
 
-@import './layouts/header';
 @import './layouts/activities';
 @import './layouts/benefits';
 @import './layouts/clients';
 @import './layouts/footer';
+@import './layouts/header';
 @import './layouts/hero';
+@import './layouts/modal';
 @import './layouts/portfolio';
 @import './layouts/team';
-@import './layouts/modal';
+
+@import './utils/mixins';
+@import './utils/placeholders';

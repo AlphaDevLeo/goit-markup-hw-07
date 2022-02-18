@@ -1,4 +1,5 @@
 button {
+	@extend %centered;
 	cursor: pointer;
 	font-family: 'Roboto', sans-serif;
 	border: none;
@@ -8,15 +9,6 @@ button {
 	}
 }
 
-.order-button {
-	margin: 0 auto;
-	padding: 0 32px;
-}
-
-.subscribe-button {
-	padding: 0 28px;
-}
-
 .subscribe-button__icon {
 	width: 24px;
 	height: 24px;
@@ -24,26 +16,8 @@ button {
 	fill: $white-clr;
 }
 
-//
-
 .order-button,
-.subscribe-button {
-	height: 50px;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.87;
-	letter-spacing: 0.06em;
-	color: $white-clr;
-	background-color: $brand-clr;
-	box-sizing: border-box;
-	border: 1px solid transparent;
-	transition: border 300ms cubic-bezier(0.4, 0, 0.2, 1);
-	&:hover,
-	&:focus {
-		border: 1px solid $white-clr;
-	}
-}
-
+.subscribe-button,
 .send-button {
 	height: 50px;
 	font-weight: 700;
@@ -54,8 +28,27 @@ button {
 	background-color: $brand-clr;
 	box-sizing: border-box;
 	border: 1px solid transparent;
+}
 
-	transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+.order-button,
+.subscribe-button {
+	transition: border $time $curv;
+	&:hover,
+	&:focus {
+		border: 1px solid $white-clr;
+	}
+}
+
+.order-button {
+	padding: 0 32px;
+}
+
+.subscribe-button {
+	padding: 0 28px;
+}
+
+.send-button {
+	transition: box-shadow $time $curv;
 	&:hover,
 	&:focus {
 		box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.8),
@@ -63,19 +56,16 @@ button {
 	}
 }
 
+//
 .filter__button {
 	padding: 6px 22px;
-}
-
-.filter__button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	color: $contrast-clr;
 	background-color: $nuance-clr;
-	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-		box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color $time $curv, box-shadow $time $curv, color $time $curv;
 	&:hover,
 	&:focus {
 		color: $white-clr;

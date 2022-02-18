@@ -7,6 +7,9 @@
 	background-color: $sub-hero;
 	background-image: linear-gradient(to top, $overlay-hero, $overlay-hero), url(../images/hero.jpg);
 	text-align: center;
+	&__container {
+		@extend .container;
+	}
 	&__title {
 		font-weight: 900;
 		font-size: 44px;
@@ -17,6 +20,7 @@
 		color: $white-clr;
 		margin-bottom: 30px;
 	}
-	// &__button {
-	// }
+	&__button {
+		margin: 0 auto;
+	}
 }
