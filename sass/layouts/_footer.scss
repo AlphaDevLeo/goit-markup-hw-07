@@ -5,7 +5,8 @@
 
 .footer-section__container {
 	@extend .container;
-	@extend %horisontal-orientation;
+	display: flex;
+	flex-direction: row;
 	align-items: baseline;
 }
 

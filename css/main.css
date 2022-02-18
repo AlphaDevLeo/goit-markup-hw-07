@@ -179,6 +179,12 @@ button:focus {
   color: #2196f3;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .social--left {
   justify-content: flex-start;
 }
@@ -345,6 +351,8 @@ button:focus {
 }
 
 .footer-section__container {
+  display: flex;
+  flex-direction: row;
   align-items: baseline;
 }
 
@@ -887,13 +895,13 @@ button:focus {
   margin-bottom: 16px;
 }
 
-.activities-section__list, .benefits-section__list, .clients-section__list, .footer-section__container, .subscribe, .header-section__container, .header-section__contacts, .navigation__list, .portfolio-section__filter, .portfolio-section__grid, .team-section__list {
+.activities-section__list, .benefits-section__list, .clients-section__list, .subscribe, .header-section__container, .header-section__contacts, .navigation__list, .portfolio-section__filter, .portfolio-section__grid, .team-section__list {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-button, .social, .social__link, .activities-section__overlay, .clients-section__link, .project__overlay {
+button, .social__link, .activities-section__overlay, .clients-section__link, .project__overlay {
   display: flex;
   justify-content: center;
   align-items: center;
