@@ -1,7 +1,8 @@
+@import './utils/variables';
+
 @import './base/reset';
 @import './base/common';
 
-@import './utils/variables';
 @import './utils/hidden';
 @import './utils/placeholders';
 
@@ -9,6 +10,7 @@
 @import './components/btn';
 @import './components/pre-title';
 @import './components/title';
+@import './components/socials';
 
 @import './layouts/header';
 @import './layouts/activities';
@@ -18,3 +20,4 @@
 @import './layouts/hero';
 @import './layouts/portfolio';
 @import './layouts/team';
+@import './layouts/modal';

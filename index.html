@@ -19,117 +19,130 @@
 
   <header class="header-section">
 
-    <div class="container horisontal-orientation">
-      <a href="./index.html"  lang="en" class="logo link logo-black"><span class="logo-clr">Web</span>Studio</a>
-      <nav>
-        <ul class="horisontal-orientation nav-menu">
-          <li>
-            <a href="./index.html" class="nav-item link current">Студия</a>
+    <div class="header-section__container">
+
+      <a class="header-section__logo" href="./index.html" lang="en" ><span class="color-logo">Web</span>Studio</a>
+
+      <nav class="header-section__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link current" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-item link">Портфолио</a>
+
+          <li class="navigation__item">
+            <a class="navigation__link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
-            <a href="" class="nav-item link">Контакты</a>
+
+          <li class="navigation__item">
+            <a class="navigation__link" href="">Контакты</a>
           </li>
+
         </ul>
       </nav>
-      <ul class="horisontal-orientation contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="header-contact link">
-            <svg class="envelope">
+
+      <ul class="header-section__contacts contact">
+
+        <li class="contact__item">
+          <a class="contact__link" href="mailto:info@devstudio.com">
+            <svg class="contact__icon envelope">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com
           </a>
         </li>
-        <li>
-          <a href="tel:+380961111111" class="header-contact link">
-            <svg class="smartphone">
+
+        <li class="contact__item">
+          <a class="contact__link" href="tel:+380961111111">
+            <svg class="contact__icon smartphone">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>
             +38 096 111 11 11
           </a>
         </li>
+
       </ul>
     </div>
-
   </header>
 
   <main>
 
     <div class="shift">
+
       <!-- Герой -->
-      <section class="section-hero">
+
+      <section class="hero-section">
+
         <div class="container">
-          <h1 class="hero-txt">Эффективные решения <br>для вашего бизнеса</h1>
-          <button type="button" class="btn order-btn centered" data-modal-open>Заказать услугу</button>
+
+          <h1 class="hero-section__title">Эффективные решения <br>для вашего бизнеса</h1>
+
+          <button class="hero-section__button order-button centered" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
   
       <!-- Наши преимущества -->
-      <section class="section-sub-hero">
+      <section class="benefits-section">
         <div class="container">
-          <h2 class="visually-hidden">Наши преимущества</h2>
-          <ul class="horisontal-orientation">
-            <li class="benefits">
-              <div class="benefit-icon-cont">
-                <svg class="benefit-icon">
+          <h2 class="benefits-section__title visually-hidden">Наши преимущества</h2>
+          <ul class="benefits-section__list">
+            <li class="benefits-section__item benefit">
+              <div class="benefit__box">
+                <svg class="benefit__icon">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="benefit-title">Внимание к деталям</h3>
-              <p class="benefit-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+              <h3 class="benefit__title">Внимание к деталям</h3>
+              <p class="benefit__description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li class="benefits">
-              <div class="benefit-icon-cont">
-                <svg class="benefit-icon">
+            <li class="benefits-section__item benefit">
+              <div class="benefit__box">
+                <svg class="benefit__icon">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="benefit-title">Пунктуальность</h3>
-              <p class="benefit-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+              <h3 class="benefit__title">Пунктуальность</h3>
+              <p class="benefit__description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li class="benefits">
-              <div class="benefit-icon-cont">
-                <svg class="benefit-icon">
+            <li class="benefits-section__item benefit">
+              <div class="benefit__box">
+                <svg class="benefit__icon">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="benefit-title">Планирование</h3>
-              <p class="benefit-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+              <h3 class="benefit__title">Планирование</h3>
+              <p class="benefit__description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li class="benefits">
-              <div class="benefit-icon-cont">
-                <svg class="benefit-icon">
+            <li class="benefits-section__item benefit">
+              <div class="benefit__box">
+                <svg class="benefit__icon">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefit-title">Современные технологии</h3>
-              <p class="benefit-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <h3 class="benefit__title">Современные технологии</h3>
+              <p class="benefit__description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
         </div>
       </section>
   
       <!-- Направления деятельности -->
-      <section class="section">
+      <section class="activities-section">
         <div class="container">
-          <h2 class="activities">Чем мы занимаемся</h2>
-          <ul class="horisontal-orientation">
-            <li class="activity">
+          <h2 class="activities-section__title">Чем мы занимаемся</h2>
+          <ul class="activities-section__list">
+            <li class="activities-section__item">
               <div class="panel centered">
                 <p>Десктопные приложения</p>
               </div>
               <img src="./images/direction-one.jpg" alt="Разработчик пишет код" width="370">
             </li>
-            <li class="activity">
+            <li class="activities-section__item">
               <div class="panel centered">
                 <p>Мобильные приложения</p>
               </div>
               <img src="./images/direction-two.jpg" alt="Дизайнер проектирует интерфейс мобильного приложения на ноутбуке" width="370">
             </li>
-            <li class="activity">
+            <li class="activities-section__item">
               <div class="panel centered">
                 <p>Дизайнерские решения</p>
               </div>
@@ -348,8 +361,8 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
 
-        <button type="button" class="modal-close-btn centered" data-modal-close>
-          <svg class="close">
+        <button type="button" class="modal__close-button close-button v___v  centered" data-modal-close>
+          <svg class="close-button__icon">
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
@@ -404,7 +417,7 @@
             </label>
           </div>
 
-          <button type="submit" class="btn send-btn centered">
+          <button type="submit" class="send-button centered">
             Отправить
           </button>
 
@@ -415,32 +428,32 @@
 
   </main>
 
-  <footer class="footer-section shift">
-    <div class="container horisontal-orientation">
+  <footer class="footer-section">
+    <div class="footer-section__container">
 
-      <div class="footer-contacts">
-        <a href="./index.html" lang="en" class="logo link logo-white"><span class="logo-clr">Web</span>Studio</a>
-        <address>
-          <ul>
-            <li>
-              <a href="https://goo.gl/maps/ezcWNEvR4oJUu5Hd6" class="footer-address link">г. Киев, пр-т Леси Украинки, 26</a>
+      <div class="footer-section__contacts">
+        <a href="./index.html" lang="en" class="footer-section__logo"><span class="color-logo">Web</span>Studio</a>
+        <address class="footer-section__address">
+          <ul class="footer-section__list">
+            <li class="footer-section__item">
+              <a href="https://goo.gl/maps/ezcWNEvR4oJUu5Hd6" class="footer-section__link footer-address">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="footer-contact link">info@devstudio.com</a>
+            <li class="footer-section__item">
+              <a href="mailto:info@devstudio.com" class="footer-section__link">info@devstudio.com</a>
             </li>
-            <li>
-              <a href="tel:+380961111111" class="footer-contact link">+38 096 111 11 11</a>
+            <li class="footer-section__item">
+              <a href="tel:+380961111111" class="footer-section__link">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
       </div>
 
-      <div>
-        <h3 class="join">присоединяйтесь</h3>
-        <ul class="social-list horisontal-orientation">
-          <li class="social-item">
-            <a href="" class="social-link-footer centered">
-              <svg class="social-icon-footer">
+      <div class="footer-section__social social">
+        <h3 class="social__title">присоединяйтесь</h3>
+        <ul class="social__list social horisontal-orientation">
+          <li class="social__item">
+            <a href="" class="social__link social-link-footer centered">
+              <svg class="social__icon social-icon-footer">
                 <use href="./images/icons.svg#instagram"></use>
               </svg>
             </a>
@@ -469,15 +482,15 @@
         </ul>
       </div>
 
-      <div class="subscribe-block">
-        <h3 class="join">подпишитесь на рассылку</h3>
-        <form autocomplete="on" action="" class="horisontal-orientation">
-          <label>
-            <input class="footer-input" name="user-email" type="email" placeholder="E-mail">
+      <div class="footer-section__subscribe subscribe">
+        <h3 class="subscribe__title">подпишитесь на рассылку</h3>
+        <form autocomplete="on" action="" class="subscribe__form">
+          <label class="subscribe__label">
+            <input class="subscribe__input footer-input" name="user-email" type="email" placeholder="E-mail">
           </label>
-          <button type="submit" class="btn subscribe-btn centered">
+          <button type="submit" class="subscribe__button subscribe-button centered">
             Подписаться
-              <svg class="send-icon">
+              <svg class="subscribe-button__icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
           </button>

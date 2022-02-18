@@ -1,7 +1,10 @@
 // test
-@mixin font($fz: 16px, $fw: 500, $ls: 0.02em, $lh: 1.2) {
-	font-size: $fz;
+@mixin text($ff: 16px, $fs: normal 16px, $fw: 16px, $fz: 16px, $lh: 500, $ls: 0.02em, $clr: 1.2) {
+	font-family: $ff;
+	font-style: $fs;
 	font-weight: $fw;
-	letter-spacing: $ls;
+	font-size: $fz;
 	line-height: $lh;
+	letter-spacing: $ls;
+	color: #757575;
 }

@@ -1,0 +1,16 @@
+.social-icon {
+	fill: var(--client-border-clr);
+}
+
+.social-link:hover,
+.social-link:focus,
+.social-link-footer:hover,
+.social-link-footer:focus {
+	background-color: var(--brand-clr);
+	outline: none;
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+	fill: var(--white-clr);
+}
