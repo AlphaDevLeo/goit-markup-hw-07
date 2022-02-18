@@ -3,7 +3,7 @@
   --brand-clr: rgb(33, 150, 243);
   --brand-transparent-clr: rgba(33, 150, 243, 0.9);
   --white-clr: #ffffff;
-  --transparent-clr: rgba(255, 255, 255, 60%);
+  --transparent-clr: rgba(255, 255, 255, 0.6);
   --nuance-clr: #f5f4fa;
   --activity-bgd: #eeeeee;
   --border-clr: #ececec;
@@ -13,7 +13,7 @@
   --footer-clr: #2f303a;
   --contrast-clr: #212121;
   --black-clr: #000000;
-  --shadow-clr: rgba(0, 0, 0, 25%);
+  --shadow-clr: rgba(0, 0, 0, 0.25);
   --client-border-clr: #afb1b8;
   --column-project: 3;
 }
@@ -811,14 +811,18 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: #2196f3;
+  opacity: 0.9;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  color: #ffffff;
   padding: 0 24px;
   transform: translateY(101%);
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project__description {
+  color: #ffffff;
 }
 
 .project__meta {

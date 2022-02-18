@@ -2,7 +2,7 @@
 	--brand-clr: rgb(33, 150, 243);
 	--brand-transparent-clr: rgba(33, 150, 243, 0.9);
 	--white-clr: #ffffff;
-	--transparent-clr: rgba(255, 255, 255, 60%);
+	--transparent-clr: rgba(255, 255, 255, 0.6);
 	--nuance-clr: #f5f4fa;
 	--activity-bgd: #eeeeee;
 	--border-clr: #ececec;
@@ -12,13 +12,12 @@
 	--footer-clr: #2f303a;
 	--contrast-clr: #212121;
 	--black-clr: #000000;
-	--shadow-clr: rgba(0, 0, 0, 25%);
+	--shadow-clr: rgba(0, 0, 0, 0.25);
 	--client-border-clr: #afb1b8;
 	--column-project: 3;
 }
 
 $brand-clr: rgb(33, 150, 243);
-$brand-transparent-clr: rgba(33, 150, 243, 0.9);
 $white-clr: #ffffff;
 $transparent-clr: rgba(255, 255, 255, 0.6);
 $nuance-clr: #f5f4fa;
@@ -31,6 +30,7 @@ $footer-clr: #2f303a;
 $contrast-clr: #212121;
 $black-clr: #000000;
 $shadow-clr: rgba(0, 0, 0, 0.25);
+$shadow-light-clr: rgba(0, 0, 0, 0.2);
 $client-border-clr: #afb1b8;
 $column-project: 3;
 $icon-bg-clr: rgba(255, 255, 255, 0.1);
